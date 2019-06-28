@@ -1,0 +1,92 @@
+Fri Apr 05 17:13:19 EDT 2019 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Fri Apr 05 17:13:49 EDT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0169-ef59-4763-000028d5389e 
+on database directory /Users/kritikasenthil/Desktop/BestPizzaPractice/src/bestpizzapractice/pizzadb with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_191-b12
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.14.4
+derby.system.home=/Users/kritikasenthil/Desktop/BestPizzaPractice/src/bestpizzapractice
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Apr 05 17:30:55 EDT 2019: Shutting down Derby engine
+
+------------  Begin Shutdown Error Stack -------------
+
+ERROR XSLAQ: Cannot create log file at directory /Users/kritikasenthil/Desktop/BestPizzaPractice/src/bestpizzapractice/pizzadb/log.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getLogDirectory(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getControlFileName(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpointWithTran(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpoint(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.stop(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.stop(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.shutdown(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.Driver20.connect(Unknown Source)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.blockingStart(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.executeWork(Unknown Source)
+	at org.apache.derby.drda.NetworkServerControl.main(Unknown Source)
+
+
+------------  End Shutdown Error Stack -------------
+
+
+------------  Begin Shutdown Error Stack -------------
+
+ERROR XSLAQ: Cannot create log file at directory /Users/kritikasenthil/Desktop/BestPizzaPractice/src/bestpizzapractice/pizzadb/log.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getLogDirectory(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getControlFileName(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpointWithTran(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpoint(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.stop(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.stop(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.shutdown(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.Driver20.connect(Unknown Source)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.blockingStart(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.executeWork(Unknown Source)
+	at org.apache.derby.drda.NetworkServerControl.main(Unknown Source)
+
+
+------------  End Shutdown Error Stack -------------
+
+
+------------  Begin Shutdown Error Stack -------------
+
+ERROR XSLAQ: Cannot create log file at directory /Users/kritikasenthil/Desktop/BestPizzaPractice/src/bestpizzapractice/pizzadb/log.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getLogDirectory(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.getControlFileName(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpointWithTran(Unknown Source)
+	at org.apache.derby.impl.store.raw.log.LogToFile.checkpoint(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.stop(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.stop(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.shutdown(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.shutdown(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.Driver20.connect(Unknown Source)
+	at org.apache.derby.jdbc.EmbeddedDriver.connect(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.blockingStart(Unknown Source)
+	at org.apache.derby.impl.drda.NetworkServerControlImpl.executeWork(Unknown Source)
+	at org.apache.derby.drda.NetworkServerControl.main(Unknown Source)
+
+
+------------  End Shutdown Error Stack -------------
+
+----------------------------------------------------------------
+Fri Apr 05 17:30:55 EDT 2019:
+Shutting down instance a816c00e-0169-ef59-4763-000028d5389e on database directory /Users/kritikasenthil/Desktop/BestPizzaPractice/src/bestpizzapractice/pizzadb with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+----------------------------------------------------------------

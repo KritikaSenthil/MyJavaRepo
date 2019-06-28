@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <head>
+        <title>Select Your Pizza</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h:form>
+            <h1>
+                Select Your Pizza
+            </h1>
+            <h:selectOneRadio id="osSelectOneRadio">
+                <f:selectItem itemValue="PeppPizza" itemLabel="Pepperoni Pizza"/>
+                <f:selectItem itemValue="SauPizza" itemLabel="Sausage Pizza"/> 
+                <f:selectItem itemValue="CheePizza" itemLabel="Cheese Pizza"/>               
+            </h:selectOneRadio>
+            <p><h:graphicImage name="pepperoni.jpg" library="images"/>
+                <h:graphicImage name="sausage.jpg" library="images"/> 
+                <h:graphicImage name="cheese.jpg" library="images"/>
+            </p>
+            <h:outputText value="Pizza Quantity:"/>
+            <h:inputText id="PizzaQuantityInputText" required="true"
+                         requiredMessage="Please enter pizza selection"
+                         value="#{validationBean.name}"
+                         validatorMessage="Name must be fewer than 30 characters">
+                <f:validateLength maximum="30" />
+            </h:inputText>
+            <h:message for="PizzaQuantityInputText" styleClass="error"/>
+            <p><h:commandButton value="Next step: select your sides." action="selectsides.xhtml"/></p>
+        </h:form>
+    </body>
+</html>
